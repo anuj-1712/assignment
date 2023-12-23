@@ -15,7 +15,7 @@ export default function Groups() {
     priorityState,
     setUserState,
     userState,
-    tickets,
+    tickets
   } = useContext(Context);
 
   const filterTickets = () => {
